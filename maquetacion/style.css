@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+}
+
+p {
+    margin-right: 40px;
+}
+
+h1 {
+    margin: 0px 400px;
+    text-align: center;
+}
+
+button.redondo {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+}
+
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+
+div#introduction-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+div#impacto {
+    display: flex;
+    height: 400px;
+    background-color: rgb(5, 1, 26);
+    color: white;
+}
+
+div#text-impacto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+div#numbers-impacto {
+    display: flex;
+    align-items: center;
+}
+
+#image {
+    background-image: url(https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 30em;
+}
+
+#programa {
+    display: flex;
+}
+
+#div-programas {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#img-programas {
+    border-radius: 30px;
+}
+
+#img-academy {
+    width: 200px;
+    height: 70px;
+}
+
+#div-academy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+#robotica {
+    display: flex;
+}
+
+#div-robotica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+#img-robotica {
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+#equipo {
+    display: flex;
+    flex-direction: row;
+   
+    
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 200px;
+    margin: 0 20px;
+  }
+  
+  img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    max-width: 100%;
+  }
+  
